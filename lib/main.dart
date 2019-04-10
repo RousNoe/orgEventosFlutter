@@ -10,7 +10,7 @@ void main(){
           title: Text('Organizacion de Eventos'),
         ),
         body: Center(
-          child: Text('Hola mi mundo'),
+          child: Text('ESTE SERA MI LOGIN'),
         ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
