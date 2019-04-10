@@ -7,10 +7,10 @@ void main(){
       title:'MI Aplicacion ',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('hola noemi'),
+          title: Text('Organizacion de Eventos'),
         ),
         body: Center(
-          child: Text('mundo flutte'),
+          child: Text('Hola mi mundo'),
         ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
