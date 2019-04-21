@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:eventos_app/evento.dart';
+import 'package:eventos_app/principal/evento.dart';
 
 void main() => runApp(MyApp());
 
