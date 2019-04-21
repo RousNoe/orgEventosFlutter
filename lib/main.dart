@@ -1,3 +1,4 @@
+import 'package:eventos_app/clientes/clienteTab.dart';
 import 'package:flutter/material.dart';
 import 'package:eventos_app/principal/evento.dart';
 
@@ -10,7 +11,8 @@ class MyApp extends StatelessWidget {
         length: 3,
         child: Scaffold(
           appBar: AppBar(
-            title: Text("navegamos"),
+            title: Image.asset("assets/images/logo.jpg",height: 80.0),
+            
             bottom: TabBar(
               indicatorColor: Colors.orange,
               tabs: <Widget>[
@@ -23,7 +25,8 @@ class MyApp extends StatelessWidget {
           body: TabBarView(
               children: <Widget>[
                 Eventos(),
-                //InicioTabs(),
+                ClienteTab(),
+
               ],
               ),
         )

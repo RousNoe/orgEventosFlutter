@@ -6,13 +6,7 @@ class Eventos extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        endDrawer: Drawer(),
-        appBar: AppBar(
-          title: Image.asset(
-            "assets/images/logo.jpg",
-            height: 60.0,
-          ),
-        ),
+
         body: Container(
           margin: EdgeInsets.symmetric(vertical: 20.0),
           height: 300,
