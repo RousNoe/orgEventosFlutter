@@ -12,26 +12,6 @@ class Eventos extends StatelessWidget {
             "assets/images/logo.jpg",
             height: 60.0,
           ),
-          actions: <Widget>[
-            InkWell(
-              onTap: () {
-                print("Boton - Anotaciones");
-              },
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 40.0),
-                child: Icon(Icons.note_add),
-              ),
-            ),
-            InkWell(
-              onTap: () {
-                print("Boton - dehaze");
-              },
-              child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 30.0),
-                child: Icon(Icons.dehaze),
-              ),
-            ),
-          ],
         ),
         body: Container(
           margin: EdgeInsets.symmetric(vertical: 20.0),
