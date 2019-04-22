@@ -13,13 +13,28 @@ class ListEventos extends StatelessWidget{
     return Container(
       width: 225.0,
       child: Card(
+        elevation: 6.0,
         child: Wrap(
           children: <Widget>[
             Image.asset(imagenVal),
             ListTile(
               title: Text(titulo),
               subtitle: Text(subtitulo),
+
             ),
+            ButtonTheme.bar(
+              buttonColor: Colors.cyanAccent,
+              child: ButtonBar(
+                children: <Widget>[
+                  FlatButton(
+                  child: const Text("Ver Detalles"),
+                    onPressed: (){},
+              ),
+
+                ],
+              ),
+            ),
+
           ],
         ),
       ),
