@@ -8,12 +8,12 @@ class Reuniones extends StatelessWidget {
         children: <Widget>[
           //*Agregamos una imagen
           Container(
-            margin: const EdgeInsets.all(10.0),
-            width: 350.0,
-            height: 350,
+            margin: const EdgeInsets.all(50.0),
+            width: 600.0,
+            height: 600,
             decoration: BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage("assets/servicios/mas.jpg"),
+                  image: AssetImage("assets/fondos/merry.jpg"),
                   fit: BoxFit.cover
               ),
             ),
@@ -22,7 +22,7 @@ class Reuniones extends StatelessWidget {
           Container(
             margin: const EdgeInsets.only(top: 300.0,left:25.0 ),
             child: RaisedButton(
-                padding: const EdgeInsets.only(top: 20,left: 100,right: 100,bottom: 20),
+                padding: const EdgeInsets.only(top: 10,left: 80,right: 50,bottom: 20),
                 textColor: Colors.black,
                 color: Colors.pink,
                 onPressed: (){//click cunado lo precionamos

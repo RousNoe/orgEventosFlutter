@@ -8,8 +8,8 @@ class Eventos extends StatelessWidget {
     return Scaffold(
 
         body: Container(
-          margin: EdgeInsets.symmetric(vertical: 20.0),
-          height: 300,
+          margin: EdgeInsets.symmetric(vertical: 50.0),
+          height: 350,
           child: Center(
             child: ListView(
               scrollDirection: Axis.horizontal,
