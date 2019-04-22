@@ -20,11 +20,13 @@ class Reuniones extends StatelessWidget {
           ),
           //final de la imagen una imagen
           Container(
-            margin: const EdgeInsets.only(top: 300.0,left:25.0 ),
+            margin: const EdgeInsets.only(top: 350.0,left:140.0 ),
             child: RaisedButton(
-                padding: const EdgeInsets.only(top: 10,left: 80,right: 50,bottom: 20),
-                textColor: Colors.black,
-                color: Colors.pink,
+                padding: const EdgeInsets.only(top: 10,left: 10,right: 10,bottom: 20,),
+                textColor: Colors.white,
+                color: Colors.pink[300],
+                child: Text("Adicionar",textDirection: TextDirection.ltr,),
+                elevation: 6.0,
                 onPressed: (){//click cunado lo precionamos
                   Scaffold
                       .of(context)
